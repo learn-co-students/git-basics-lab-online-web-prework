@@ -1,1 +1,7 @@
---timeout 10000
+languages:
+  - html
+  - css
+tags:
+  - validation
+  - errors
+resources: 1
