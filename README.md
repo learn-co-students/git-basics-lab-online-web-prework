@@ -3,7 +3,7 @@
 ## Learning Goals
 
 - Understand how to complete labs on Learn
-- Apply what you've learned about Git version control
+- Apply what you've learned about Git version controlc
 - Initialize a new Git repository
 - Stage and commit new content
 - Create a remote repository on GitHub
