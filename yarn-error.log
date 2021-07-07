@@ -1,0 +1,71 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js install --no-lockfile
+
+PATH: 
+  /var/opt/rails/bin:/var/opt/httpserver/bin:/var/opt/atom/bin:/var/opt/shotgun/bin:/var/opt/rackup/bin:/var/opt/jekyll/bin:/usr/local/rvm/gems/ruby-2.6.1/bin:/usr/local/rvm/gems/ruby-2.6.1@global/bin:/usr/local/rvm/rubies/ruby-2.6.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/rvm/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  8.16.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-2.0.5.tgz: Request failed "400 Bad Request"
+      at ResponseError.ExtendableBuiltin (/usr/share/yarn/lib/cli.js:696:66)
+      at new ResponseError (/usr/share/yarn/lib/cli.js:802:124)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:66996:16)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at Request.module.exports.Request.onRequestResponse (/usr/share/yarn/lib/cli.js:141441:10)
+      at emitOne (events.js:116:13)
+      at ClientRequest.emit (events.js:211:7)
+      at HTTPParser.parserOnIncomingClient (_http_client.js:552:21)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:119:17)
+
+npm manifest: 
+  {
+    "name": "git-basics-lab",
+    "version": "1.0.0",
+    "description": "## Objectives 1. Practice your GitHub command line skills 2. Create a remote repository on GitHub and connect it with a local folder",
+    "directories": {
+      "test": "test"
+    },
+    "scripts": {
+      "test": "mocha -R mocha-multi --reporter-options spec=-,json=.results.json"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/learn-co-curriculum/git-remote-code-along.git"
+    },
+    "keywords": [
+      "git",
+      "lab"
+    ],
+    "author": "flatiron school",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/learn-co-curriculum/git-remote-code-along/issues"
+    },
+    "homepage": "https://github.com/learn-co-curriculum/git-remote-code-along#readme",
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "expect": "^1.20.2",
+      "jsdom": "^9.2.0",
+      "mocha": "^6.1.4",
+      "mocha-jsdom": "~1.1.0",
+      "mocha-multi": "^1.1.0"
+    },
+    "dependencies": {
+      "chai-fs": "^2.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
